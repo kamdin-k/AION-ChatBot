@@ -1,40 +1,115 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# AION-ChatBot  
+AION-ChatBot is a modern conversational assistant built with Next.js and TypeScript.  
+It is designed to provide structured, intelligent, and productive interactions in a clean and responsive user interface.  
+This project serves as a foundation for future AI expansion, including integration with advanced language models.
 
-## Getting Started
+---
 
-First, run the development server:
+## Overview
+
+AION-ChatBot simulates a professional and helpful conversational agent capable of assisting with studying, planning, idea development, and general guidance.  
+Although currently powered by a rule-based response engine, the architecture is prepared for seamless integration with real AI models such as OpenAI's GPT series.
+
+---
+
+## Features
+
+- Modern and minimalistic chat interface  
+- Professional conversational behavior  
+- Keyword-aware response engine  
+- Responsive design for both desktop and mobile  
+- Built with scalable and maintainable TypeScript  
+- Ready for API expansion and AI integration  
+
+---
+
+## Technology Stack
+
+- Next.js 13+  
+- React  
+- TypeScript  
+- CSS Modules  
+- Node.js  
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/kamdin-k/AION-ChatBot.git
+cd AION-ChatBot
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open the project in the browser:
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+---
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+AION-ChatBot/
+├── pages/
+│   ├── index.tsx
+│   ├── api/
+│   ├── _app.tsx
+│   └── _document.tsx
+├── styles/
+│   └── Home.module.css
+├── public/
+├── package.json
+└── next.config.js
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## Roadmap
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+Planned additions and improvements:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Integration with OpenAI large language models  
+- Real-time streaming message responses  
+- Stateful memory for continuous conversations  
+- Voice input functionality  
+- User authentication and saved chat history  
+- Deployment on Vercel  
+- Plugin and tool extensions for specialized tasks  
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Screenshot (Optional)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+Place a screenshot in `/public/screenshot.png` and reference it below:
+
+```markdown
+![AION-ChatBot Interface](./public/screenshot.png)
+```
+
+---
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+## Author
+
+AION-ChatBot was developed as a professional-grade project emphasizing clean code, maintainability, and readiness for AI integration.
